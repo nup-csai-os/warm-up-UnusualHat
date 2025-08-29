@@ -1,6 +1,7 @@
 struct stat;
 
 // system calls
+int hartid(void);
 int fork(void);
 int exit(int) __attribute__((noreturn));
 int wait(int*);
