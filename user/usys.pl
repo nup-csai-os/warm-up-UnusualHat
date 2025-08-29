@@ -14,7 +14,8 @@ sub entry {
     print " ecall\n";
     print " ret\n";
 }
-	
+
+entry("hartid");
 entry("fork");
 entry("exit");
 entry("wait");
